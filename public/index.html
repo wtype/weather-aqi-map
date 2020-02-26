@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>airboi</title>
+  </head>
+  <body>
+    <header>
+      <h1>Weather and AQI</h1>
+      <div>
+        <p><a href="/">Check in</a> | <a href="/checkin">View checkins</a></p>
+      </div>
+      <span id="last-reading"></span>
+    </header>
+    <hr />
+    <main id="map">
+      <div id="location">
+        <p>
+          Location:
+          <span id="latitude"></span>
+          <span id="longitude"></span>
+        </p>
+      </div>
+      <div id="weather">
+        <p>
+          Weather:
+          <span id="summary"></span><br /><br />
+          Temperature:
+          <span id="temperature"></span>
+        </p>
+      </div>
+      <div id="air">
+        <p>
+          Concentration of PM2.5:
+          <span id="particles"></span><br /><br />
+        </p>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

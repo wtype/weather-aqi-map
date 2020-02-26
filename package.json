@@ -1,0 +1,20 @@
+{
+  "name": "weather-aqi-map",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Rebuild: 'The Weather Here' from Daniel Shiffman.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nedb": "^1.8.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
